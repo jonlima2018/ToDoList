@@ -1,0 +1,24 @@
+:root{
+	--primaryColor:#0D0D0D;
+	--primaryBackground:#D9D8D7;
+	--primaryBorder:#8C8A88;
+	--primaryText:#262323;
+	--secondaryText:#F2EEE9;
+	--primaryError:#ef5350;
+}
+
+@font-face {
+	font-family: 'Lexend Deca';
+	src: url('./assets/fonts/LexendDeca.ttf');
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lexend Deca';	  
+}
+
+*:focus {
+	outline: none;
+}

@@ -1,0 +1,14 @@
+.container{
+  margin-top: 20px;
+  width: 80%;
+  margin: 60px auto 40px;
+}
+
+.container ul{
+  margin-top: -40px;
+  width: 100%;
+  height: auto;
+  display: grid;
+  gap: 20px;
+  list-style: none;
+}

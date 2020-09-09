@@ -1,0 +1,5 @@
+export const ADD_TODO = 'ADD_TODO';
+export const TOGGLE_TODO_STATUS = 'TOGGLE_TODO_STATUS';
+export const TOGGLE_TODO_TITLE = 'TOGGLE_TODO_TITLE';
+export const REMOVE_TODO = 'REMOVE_TODO';
+export const PERSIST_TODO = 'PERSIST_TODO';

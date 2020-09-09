@@ -1,0 +1,80 @@
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 100%;
+}
+
+.container > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.input{
+  width: 420px;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 40px;
+  font-size: 16px;
+  color: var(--primaryText);
+  border-radius:6px;
+  border: 1px solid var(--primaryBorder);
+}
+
+.input::placeholder{
+  color: var(--primaryText);
+  opacity: 0.5;
+}
+
+.error{
+  height: 10px;
+  padding: 5px;
+  visibility: hidden;
+  font-size: 14px;
+  color: var(--primaryError);
+}
+
+.submit{
+  width: 30px;
+  height: 30px;
+  margin-left: -30px;
+  border: 1px solid var(--primaryBorder);
+  background-color: var(--primaryBackground);
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0px 6px 6px 0;
+  transition: all 0.6s;
+}
+
+.submit > svg {
+  color: var(--primaryText);
+  font-size: 18px;
+  margin: 0 auto;
+}
+
+.submit:disabled{
+  opacity: 0.5;
+}
+
+.submit:hover{
+  background-color: var(--primaryColor);
+}
+
+.submit:hover > svg{
+  color: var(--primaryBackground);
+
+}
+
+.container::after{
+  content: "";
+  margin-top: 20px;
+  height: 1px;
+  width: 80%;
+  background-color: var(--primaryBorder);
+}
+

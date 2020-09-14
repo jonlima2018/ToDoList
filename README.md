@@ -6,5 +6,5 @@
 Para testar a aplicação [clique aqui](https://app-list-todo.netlify.app/).
 
 <h1 align="center">
-  <img src="./github/img/todoapp.gif">
+  <img src="./.github/img/todoapp.gif">
 </h1>

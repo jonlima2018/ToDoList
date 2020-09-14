@@ -1,10 +1,15 @@
 :root{
-	--primaryColor:#0D0D0D;
-	--primaryBackground:#D9D8D7;
-	--primaryBorder:#8C8A88;
-	--primaryText:#262323;
-	--secondaryText:#F2EEE9;
-	--primaryError:#ef5350;
+	--headerColor: #0D0D0Dee;
+	--textHeaderColor:#D9D8D7;
+	--textColor:#0D0D0D;
+	--textHover:#D9D8D7;
+	--bgColor:#F2EEE9;
+	--borderColor:#8C8A88;
+	--errorColor:#ef5350;	
+}
+
+html{
+	background: var(--bgColor);
 }
 
 @font-face {

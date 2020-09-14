@@ -21,13 +21,13 @@
   padding-left: 10px;
   padding-right: 40px;
   font-size: 16px;
-  color: var(--primaryText);
+  color: var(--textColor);
   border-radius:6px;
-  border: 1px solid var(--primaryBorder);
+  border: 1px solid var(--borderColor);
 }
 
 .input::placeholder{
-  color: var(--primaryText);
+  color: var(--textColor);
   opacity: 0.5;
 }
 
@@ -36,15 +36,15 @@
   padding: 5px;
   visibility: hidden;
   font-size: 14px;
-  color: var(--primaryError);
+  color: var(--errorColor);
 }
 
 .submit{
   width: 30px;
   height: 30px;
   margin-left: -30px;
-  border: 1px solid var(--primaryBorder);
-  background-color: var(--primaryBackground);
+  border: 1px solid var(--borderColor);
+  background-color: var(--bgColor);
   font-size: 16px;
   cursor: pointer;
   border-radius: 0px 6px 6px 0;
@@ -52,7 +52,7 @@
 }
 
 .submit > svg {
-  color: var(--primaryText);
+  color: var(--textColor);
   font-size: 18px;
   margin: 0 auto;
 }
@@ -62,11 +62,11 @@
 }
 
 .submit:hover{
-  background-color: var(--primaryColor);
+  background-color: var(--textColor);
 }
 
 .submit:hover > svg{
-  color: var(--primaryBackground);
+  color: var(--textHover);
 
 }
 
@@ -75,6 +75,6 @@
   margin-top: 20px;
   height: 1px;
   width: 80%;
-  background-color: var(--primaryBorder);
+  background-color: var(--borderColor);
 }
 

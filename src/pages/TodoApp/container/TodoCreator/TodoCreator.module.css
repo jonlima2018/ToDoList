@@ -78,3 +78,8 @@
   background-color: var(--borderColor);
 }
 
+@media( max-width: 500px){
+  .input{
+    width: 250px;
+  }
+}

@@ -130,3 +130,35 @@
 .closeButton svg path {
     fill: var(--textColor);
 }
+
+@media( max-width: 620px){
+    .modal{
+        width: 250px;
+        min-width: 250px;
+        height: 140px;
+        left: calc(50vw - 125px);
+        top: calc(50vh - 70px);
+    }
+    .modal > form > div > input{
+        width: 220px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .submit{
+        margin-top: 10px;
+    }
+    .titleModal{
+        font-size: 18px;
+        margin-top: -10px;
+        margin-left: -5px;
+    }
+    .closeButton{
+        width: 30px;
+        height: 30px;
+        top: 5px;
+        right: 5px;
+    }
+    .error{
+        font-size: 10px;
+    }
+}
